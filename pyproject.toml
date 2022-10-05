@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "mysite"
+version = "0.1.0"
+description = ""
+authors = ["NathyG2524 <nathygirma2524@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Django = "^4.1.2"
+dj-database-url = "^1.0.0"
+psycopg2-binary = "^2.9.3"
+whitenoise = {extras = ["brotli"], version = "^6.2.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
